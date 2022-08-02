@@ -35,7 +35,7 @@ class Account:
             if amount > 0:
                 tran_type="deposited"
             else:
-                tran_type="withdrawn"
+                tran_type="withdrawnGGGGG"
                 amount *=1
             print("{:6} {} on {} (Local time was {})".format(amount, tran_type, date, date.astimezone()))
 
